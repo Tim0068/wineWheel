@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<link href="jquery-mobie1.4/piccadilly.min.css" rel="stylesheet" type="text/css">
+<link href="jquery-mobie1.4/jquery.mobile.structure-1.4.4.min.css" rel="stylesheet" type="text/css">
+<script src="jquery-mobie1.4/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="jquery-mobie1.4/jquery.mobile-1.4.4.min.js" type="text/javascript"></script>
+ <meta name="viewport" content="width=device-width"/>
+</head>
+
+<body>
+<div data-role="page" id="pageStart" data-theme="a" align="center">
+<div data-role="panel" id="menuPanel" data-theme="a">
+
+
+ <ul data-role="listview" data-inset="true">
+      <li id=""><a href="#pageWheel"><img src="images/icons/Untitled-1.png"/>
+        <h2>Aroma Wheel</h2>
+        <p>Wine Education</p>
+</a></li>
+<li><a href="#pageWheel"><img src="images/icons/icon2.png"/>
+        <h2>Wine Quiz</h2>
+        <p>Wine questions</p>
+</a></li>
+<li><a href="#pageWheel"><img src="images/icons/icon3.jpg"/>
+        <h2>Food & Wine</h2>
+        <p>Wine selection</p>
+</a></li>
+<li><a href="#pageWheel"><img src="images/icons/icon4.jpg"/>
+        <h2>Regions</h2>
+        <p>Growing areas</p>
+</a></li>
+
+
+
+</ul>
+        <!-- panel content goes here -->
+    </div><!-- /panel -->
+  <div data-role="header" id="pageStartHeader">
+   
+  </div>
+<div data-role="content" align="center"><img src="images/splashScreenWine.jpg" width="100%" id="splash"><a href= "#menuPanel" data-role="button" data-mini="true" id="menuBtn">Aroma Wheel</a>
+</div>
+</div>
+<div data-role="page" id="pageWheel">
+  <div data-role="header" id="wheelPageHeader">
+    <h1></h1>
+  </div>
+  
+  <div data-role="content">
+    <div data-role="fieldcontain">
+      <label for="selectmenu" class="select">Colour:</label>
+      <select name="selectmenu" id="selectmenu">
+        <option value="option1">Select</option>
+        <option value="option2">Red</option>
+        <option value="option3">Clear</option>
+        <option value="option3">Yellow</option>
+        <option value="option3">Pink</option>
+        <option value="option3">White</option>
+      </select>
+    </div>
+  <div data-role="fieldcontain">
+      <label for="selectmenu" class="select">First Aroma:</label>
+      <select name="selectmenu" id="selectmenu">
+        <option value="option1">Select</option>
+        <option value="option2">Smell</option>
+        <option value="option3">Smell</option>
+        <option value="option3">Smell</option>
+        <option value="option3">Smell</option>
+        <option value="option3">Smell</option>
+      </select>
+    </div>
+  <div data-role="fieldcontain">
+      <label for="selectmenu" class="select">Second Aroma:</label>
+      <select name="selectmenu" id="selectmenu">
+        <option value="option1">Select</option>
+        <option value="option2">Smell</option>
+        <option value="option3">Smell</option>
+        <option value="option3">Smell</option>
+        <option value="option3">Smell</option>
+        <option value="option3">Smell</option>
+      </select>
+    </div>
+    <div data-theme="d">
+    <a href="#popupNested" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-icon-bars ui-btn-icon-left ui-btn-b" data-transition="pop">Choose a creature...</a>
+<div data-role="popup" id="popupNested" data-theme="a">
+    <div data-role="collapsibleset" data-theme="a" data-content-theme="none" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" style="margin:0; width:250px;">
+        <div data-role="collapsible" data-inset="false">
+        <h2>Farm animals</h2>
+            <ul data-role="listview">
+                <li><a href="#" data-rel="dialog">Chicken</a></li>
+                <li><a href="#" data-rel="dialog">Cow</a></li>
+                <li><a href="#" data-rel="dialog">Duck</a></li>
+                <li><a href="#" data-rel="dialog">Sheep</a></li>
+            </ul>
+        </div><!-- /collapsible -->
+        <div data-role="collapsible" data-inset="false" data-role="">
+        <h2>Pets</h2>
+            <ul data-role="listview">
+                <li><a href="#" data-rel="dialog">Cat</a></li>
+                <li><a href="#" data-rel="dialog">Dog</a></li>
+                <li><a href="#" data-rel="dialog">Iguana</a></li>
+                <li><a href="#" data-rel="dialog">Mouse</a></li>
+            </ul>
+        </div><!-- /collapsible -->
+        <div data-role="collapsible" data-inset="false">
+        <h2>Ocean Creatures</h2>
+            <ul data-role="listview">
+                <li><a href="#" data-rel="dialog">Fish</a></li>
+                <li><a href="#" data-rel="dialog">Octopus</a></li>
+                <li><a href="#" data-rel="dialog">Shark</a></li>
+                <li><a href="#" data-rel="dialog">Starfish</a></li>
+            </ul>
+        </div><!-- /collapsible -->
+        <div data-role="collapsible" data-inset="false">
+        <h2>Wild Animals</h2>
+            <ul data-role="listview">
+                <li><a href="#" data-rel="dialog">Lion</a></li>
+                <li><a href="#" data-rel="dialog">Monkey</a></li>
+                <li><a href="#" data-rel="dialog">Tiger</a></li>
+                <li><a href="#" data-rel="dialog">Zebra</a></li>
+            </ul>
+        </div><!-- /collapsible -->
+    </div><!-- /collapsible set -->
+
+</div>
+  </div>
+</div>
+
+</body>
+</html>

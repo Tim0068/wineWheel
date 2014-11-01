@@ -275,3 +275,6 @@ html .ui-alt-icon .ui-radio-off:after {
 #pageStart div #splash {
 	margin-top: 6em;
 }
+#pageWheel #wheelPageHeader {
+	background-color: #660033;
+}
